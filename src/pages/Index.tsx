@@ -101,7 +101,7 @@ function Navbar() {
 }
 
 function HeroSection({ onStart }: { onStart: () => void }) {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   return (
     <section className="relative min-h-[80vh] flex items-center justify-center bg-navy overflow-hidden">
       {/* Subtle tricolor glow */}
