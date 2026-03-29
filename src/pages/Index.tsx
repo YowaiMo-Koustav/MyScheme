@@ -82,7 +82,7 @@ function Navbar() {
 }
 
 function HeroSection({ onStart }: { onStart: () => void }) {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   return (
     <section className="relative min-h-[80vh] flex items-center justify-center gradient-hero overflow-hidden">
       <div className="absolute inset-0 opacity-[0.04]" style={{
