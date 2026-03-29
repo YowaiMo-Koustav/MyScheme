@@ -92,12 +92,6 @@ export const matcherQuestions: MatcherQuestion[] = [
     skip_text: 'Some reservation-based schemes require this information.',
   },
   {
-    id: 'disability_status',
-    question: 'Do you have a certified disability?',
-    type: 'boolean',
-    field: 'disability_status',
-  },
-  {
     id: 'marital_status',
     question: 'What is your marital status?',
     type: 'select',
