@@ -14,8 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['"Noto Sans"', '"Roboto"', 'system-ui', 'sans-serif'],
-        display: ['"Noto Sans"', '"Roboto"', 'system-ui', 'sans-serif'],
+        sans: ['"Nunito"', '"Lexend"', 'system-ui', 'sans-serif'],
+        display: ['"Georgia"', '"Lexend"', 'serif'],
+        body: ['"Nunito"', '"Lexend"', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
