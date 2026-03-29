@@ -48,14 +48,11 @@
     --success: 142 60% 38%;
     --success-foreground: 0 0% 100%;
 
-    --saffron: 24 95% 50%;
-    --saffron-foreground: 0 0% 100%;
+    --amber: 24 95% 50%;
+    --amber-foreground: 0 0% 100%;
 
-    --navy: 214 70% 22%;
+    --navy: 214 70% 14%;
     --navy-foreground: 0 0% 100%;
-
-    --gov-green: 142 60% 30%;
-    --gov-green-foreground: 0 0% 100%;
 
     --gradient-primary: linear-gradient(135deg, hsl(214 70% 22%), hsl(214 70% 35%));
     --gradient-accent: linear-gradient(135deg, hsl(24 95% 50%), hsl(14 90% 52%));
@@ -97,12 +94,10 @@
 
     --success: 142 60% 45%;
     --success-foreground: 0 0% 100%;
-    --saffron: 24 95% 55%;
-    --saffron-foreground: 0 0% 100%;
-    --navy: 214 70% 50%;
+    --amber: 24 95% 55%;
+    --amber-foreground: 0 0% 100%;
+    --navy: 214 70% 14%;
     --navy-foreground: 0 0% 100%;
-    --gov-green: 142 60% 40%;
-    --gov-green-foreground: 0 0% 100%;
   }
 }
 
