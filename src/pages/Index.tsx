@@ -127,8 +127,9 @@ function HeroSection({ onStart }: { onStart: () => void }) {
             {t('अपनी सरकारी योजना खोजें', 'Find Your Government Scheme')}
           </h1>
           <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold text-white/80 mb-5" style={{ fontFamily: "'Lexend', sans-serif" }}>
-            {t(
-              <>60 सेकंड में अपनी योजना खोजें — <span className="text-[hsl(24,95%,60%)]">AI-संचालित</span></>,
+            {lang === 'hi' ? (
+              <>60 सेकंड में अपनी योजना खोजें — <span className="text-[hsl(24,95%,60%)]">AI-संचालित</span></>
+            ) : (
               <>Find Your Scheme in <span className="text-[hsl(24,95%,60%)]">60 Seconds</span></>
             )}
           </h2>
