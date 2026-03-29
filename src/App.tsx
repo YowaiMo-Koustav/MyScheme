@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { AuthProvider } from "@/contexts/AuthContext";
 import { MatcherProvider } from "@/contexts/MatcherContext";
+import { LanguageProvider } from "@/contexts/LanguageContext";
 import Index from "./pages/Index";
 import Auth from "./pages/Auth";
 import RoleSelection from "./pages/RoleSelection";
@@ -21,6 +22,7 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <AuthProvider>
+        <LanguageProvider>
         <MatcherProvider>
           <Toaster />
           <Sonner />
@@ -38,6 +40,7 @@ const App = () => (
             </Routes>
           </BrowserRouter>
         </MatcherProvider>
+        </LanguageProvider>
       </AuthProvider>
     </TooltipProvider>
   </QueryClientProvider>
